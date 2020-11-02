@@ -3,8 +3,8 @@ const AWS = require("aws-sdk")
 AWS.config.update({
     //endpoint: "http://localhost:8000"  if you want this project local(db from local)
     region: 'ap-southeast-1',
-    accessKeyId: '',
-    secretAccessKey: ''
+    accessKeyId: 'AKIATQ2O5CY526VV2R6X',
+    secretAccessKey: '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'
 })
 
 const dynamoDB = new AWS.DynamoDB()
